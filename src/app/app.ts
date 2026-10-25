@@ -1,7 +1,7 @@
 
 import { Component, signal } from '@angular/core';
 import { HeadBar } from './components/head-bar/head-bar';
-import { SearchBar } from './components/search-bar/search-bar';
+import { SearchBar } from './components/head-bar/search-bar/search-bar';
 import { Auto } from './interfaces/auto';
 @Component({
   selector: 'app-root',
@@ -185,4 +185,3 @@ export class App {
     }
   ]
 }
-

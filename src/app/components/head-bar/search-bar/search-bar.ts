@@ -9,7 +9,7 @@ import {
 
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
-import { Auto } from '../../interfaces/auto';
+import { Auto } from '../../../interfaces/auto';
 
 @Component({
   selector: 'app-search-bar',
@@ -48,6 +48,5 @@ export class SearchBar implements OnChanges {
     this.onSelectCar.emit(auto);
   }
 }
-
 
 
